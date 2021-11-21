@@ -1,0 +1,7 @@
+body {
+  background: orange;
+}
+
+.myForm * {
+  box-sizing: border-box;
+}

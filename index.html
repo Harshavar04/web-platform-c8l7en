@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+  
+    #bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  </style>
+  </head>
+  <body>
+    <h1 align="center">Login Form</h1>
+    <form class="myForm">
+      <label
+        >Name
+        <input id="customer_name" type="text" name="customer_name" required placeholder="Name" />
+      </label>
+    </p>
+
+
+      <label>Phone
+        <input id="phone_number" type="tel" name="phone_number" required placeholder="Phone"/>
+      </label>
+    </p>
+
+    <p>
+      <label>Email
+        <input id="email_address" type="email" name="email_address" required placeholder="Email"/>
+      </label>
+    </p>
+
+    <p>
+      <label
+        >Gender
+        <select id="gender" name="gender">
+          <option value="" selected="selected">Select One</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </label>
+    </p>
+    <p>
+    <label>User Name
+      <input id="user_name" type="text" name="user_name" required placeholder="User Name" />
+    </label>
+    </p>
+    <p>
+    <label>password
+      <input id="password" type="password" name="password" required placeholder="password" />
+    </label>
+    </p>
+
+    <input id="signup" type="button" value="Sign up" name="signup" onclick="signUp()"/>
+    <input id="cancel" type="reset" value="Clear" name="cancel"/>
+  </form >
+  <div id ="bottom">
+    <a href = "https://www.google.com/" target="_blank">Opens Google</a> |
+    <a href = "https://accounts.google.com/" target="_blank">Opens Gmail</a> |
+    <a href = "simpleCal.html" target="_blank">Simple Calculator</a> |
+    <a href = "todoList.html" target="_blank"> TO DO List</a>
+    <p>
+    </div>
+    <p> Login Instructions</p> 
+    <div class="container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uU3AIBmXF1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  </body>
+</html>
